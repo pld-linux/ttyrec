@@ -5,8 +5,6 @@ Version:	1.0.5
 Release:	1
 License:	GPL
 Group:		Applications/Console
-Group(de):	Applikationen/Konsole
-Group(pl):	Aplikacje/Konsola
 Source0:	http://namazu.org/~satoru/%{name}/%{name}-%{version}.tar.gz
 URL:		http://namazu.org/~satoru/ttyrec
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -16,11 +14,11 @@ Ttyrec records evens from a tty. Provides is also ttyplay, for playing
 recorded data.
 
 %description -l pl
-Ttyrec nagrywa obraz z konsoliprep. W pakiecie jest program ttyplay,
+Ttyrec nagrywa obraz z konsoli. W pakiecie jest program ttyplay,
 s³u¿±cy do odtwarzania powsta³ych nagrañ.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
 %{__make} CC=%{__cc} CFLAGS="%{rpmcflags}"
