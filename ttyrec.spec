@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://namazu.org/~satoru/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	049b1711e3687de144072866eeee000e
 URL:		http://namazu.org/~satoru/ttyrec
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
