@@ -1,12 +1,12 @@
 Summary:	Ttyrec is a tty recorder
 Summary(pl):	Ttyrec nagrywa obraz z konsoli
 Name:		ttyrec
-Version:	1.0.6
+Version:	1.0.8
 Release:	1
 License:	GPL
 Group:		Applications/Console
 Source0:	http://namazu.org/~satoru/ttyrec/%{name}-%{version}.tar.gz
-# Source0-md5:	82d092bb4ccd4730ec97c3c00b4bfda4
+# Source0-md5:	ee74158c6c55ae16327595c70369ef83
 URL:		http://namazu.org/~satoru/ttyrec/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,7 +31,7 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install ttyrec ttyplay ttytime $RPM_BUILD_ROOT%{_bindir}
-install ttyrec.1 ttyplay.1 $RPM_BUILD_ROOT%{_mandir}/man1
+install ttyrec.1 ttyplay.1 ttytime.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 
 %clean
