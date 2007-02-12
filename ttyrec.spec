@@ -1,5 +1,5 @@
 Summary:	Ttyrec is a tty recorder
-Summary(pl.UTF-8):   Ttyrec nagrywa obraz z konsoli
+Summary(pl.UTF-8):	Ttyrec nagrywa obraz z konsoli
 Name:		ttyrec
 Version:	1.0.8
 Release:	1
